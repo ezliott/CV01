@@ -21,4 +21,67 @@ h1{
      font-size: 30px
       }
       ;
-}
+/*----------------------------MEDIA QUIERIS-------------------------------------*/
+@media screen and (max-width:769px){
+    main{
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    section {
+      width: 90%;
+      background: rgba(51, 219, 62, 0.3);
+      border: 2px solid white;
+      border-radius: 15px;
+      padding: 10px;
+      margin: 10px;
+    }
+    h1 {
+      color:rgb(69, 69, 17);
+      font-size: 8vw;
+      width: max-content;
+    }
+    h2, p{
+      text-align: center;
+    }
+  
+    a img {
+      display: block;
+      margin: auto;
+    }
+  }
+  @media screen and (min-width:1025px){
+    body{
+       margin:auto; 
+       background-color: #a6c0ce;   
+    }
+    main{
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    section {
+      width: 30%;
+      background: rgba(51, 76, 219, 0.5);
+      border: 2px solid white;
+      border-radius: 15px;
+      padding: 10px;
+      margin: 10px;
+    }
+    h1 {
+      color:rgb(69, 69, 17);
+      font-size: 5vw;
+      width: max-content;
+    }
+    h2, p{
+      text-align: center;
+    }
+  
+    a img {
+      display: block;
+      position: absolute;
+      top:20px;
+      right: 20px;
+    }
+    
+  }
